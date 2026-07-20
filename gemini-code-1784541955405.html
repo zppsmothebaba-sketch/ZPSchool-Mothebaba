@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>जि. प. प्राथ. शाळा मोठे बाबा, शिर्डी</title>
+    <style>
+        /* CSS Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #0d233a;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            display: block;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff9800;
+            color: #fff;
+        }
+
+        /* Section Layout */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e3c72;
+            border-bottom: 3px solid #ff9800;
+            display: inline-block;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.3rem;
+        }
+
+        /* Features List */
+        .features-list {
+            list-style-type: square;
+            margin-left: 1.5rem;
+        }
+
+        .features-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Photo Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 1rem;
+        }
+
+        .gallery-item {
+            background: #e0e0e0;
+            height: 180px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-weight: bold;
+            border: 1px solid #ccc;
+        }
+
+        /* Contact Details */
+        .contact-info p {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d233a;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+            nav ul li a {
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>जिल्हा परिषद प्राथमिक शाळा मोठे बाबा, शिर्डी</h1>
+        <p>ता. राहता, जि. अहिल्यानगर | गुणवत्तापूर्ण शिक्षण आणि सर्वांगीण विकास</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">होम</a></li>
+            <li><a href="#about">शाळा विशेष</a></li>
+            <li><a href="#activities">शैक्षणिक उपक्रम</a></li>
+            <li><a href="#gallery">क्षणचित्रे</a></li>
+            <li><a href="#contact">संपर्क</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <!-- 1. होम (Home) -->
+        <section id="home">
+            <h2>ॲडमिशन सुरू आहे!</h2>
+            <p>आमच्या शाळेत विद्यार्थ्यांच्या बौद्धिक, शारीरिक आणि सांस्कृतिक विकासासाठी उत्तम वातावरण उपलब्ध आहे. डिजिटल शिक्षण पद्धती आणि अनुभवी शिक्षक वृंदांच्या मार्गदर्शनाखाली समृद्ध भविष्याची पायाभरणी करा.</p>
+        </section>
+
+        <!-- 2. शाळा विशेष (About/Specialities) -->
+        <section id="about">
+            <h2>शाळा विशेष</h2>
+            <p>आमच्या शाळेची ठळक वैशिष्‍ट्ये खालीलप्रमाणे आहेत:</p>
+            <br>
+            <ul class="features-list">
+                <li>सज्ज आणि डिजिटल क्लासरूम सुविधा.</li>
+                <li>प्रगतीशील आणि अनुभवी शिक्षक वर्ग.</li>
+                <li>सुसज्ज ग्रंथालय आणि क्रीडा साहित्य.</li>
+                <li>स्वच्छ पिण्याचे पाणी आणि स्वच्छतागृह सुविधा.</li>
+                <li>विद्यार्थ्यांसाठी मोफत पाठ्यपुस्तके व गणवेश योजना.</li>
+                <li>सुसज्ज संगणक कक्ष.</li>
+            </ul>
+        </section>
+
+        <!-- 3. शैक्षणिक उपक्रम (Academic Activities) -->
+        <section id="activities">
+            <h2>शैक्षणिक उपक्रम</h2>
+            <p>विद्यार्थ्यांच्या कलागुणांना वाव देण्यासाठी वर्षाभरात विविध उपक्रम राबवले जातात:</p>
+            <br>
+            <ul class="features-list">
+                <li><strong>शिष्यवृत्ती परीक्षा मार्गदर्शन:</strong> ५ वी आणि ८ वी च्या विद्यार्थ्यांसाठी विशेष वर्ग.</li>
+                <li><strong>डिजिटल ई-लर्निंग:</strong> ॲनिमेशन आणि व्हिडीओद्वारे सोप्या पद्धतीने अध्यापन.</li>
+                <li><strong>सांस्कृतिक व क्रीडा स्पर्धा:</strong> वार्षिक स्नेहसंमेलन व मैदानी खेळ.</li>
+                <li><strong>विज्ञान व गणित प्रदर्शन:</strong> बालवैज्ञानिकांसाठी विशेष मंच.</li>
+                <li><strong>वृक्षारोपण व स्वच्छता अभियान:</strong> सामाजिक जाणिवेची रुजवण.</li>
+            </ul>
+        </section>
+
+        <!-- 4. क्षणचित्रे (Gallery) -->
+        <section id="gallery">
+            <h2>क्षणचित्रे (फोटो गॅलरी)</h2>
+            <p>शाळेतील विविध कार्यक्रम व उपक्रमांची छायाचित्रे:</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">[ डिजिटल क्लासरूम ]</div>
+                <div class="gallery-item">[ क्रीडा महोत्सव ]</div>
+                <div class="gallery-item">[ वृक्षारोपण कार्यक्रम ]</div>
+                <div class="gallery-item">[ सांस्कृतिक कार्यक्रम ]</div>
+            </div>
+        </section>
+
+        <!-- 5. संपर्क (Contact Us) -->
+        <section id="contact">
+            <h2>संपर्क</h2>
+            <div class="contact-info">
+                <p><strong>पत्ता:</strong> जिल्हा परिषद प्राथमिक शाळा मोठे बाबा, शिर्डी, ता. राहता, जि. अहिल्यानगर.</p>
+                <p><strong>मुख्याध्यापक:</strong> [ येथे नाव लिहा ]</p>
+                <p><strong>मोबाईल नंबर:</strong> [ येथे फोन नंबर लिहा ]</p>
+                <p><strong>ई-मेल:</strong> zpschoolmotebaba@gmail.com</p>
+                <p><strong>वेळ:</strong> सोमवार ते शनिवार (सकाळी ९:३० ते दुपारी ४:३०)</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 जि. प. प्राथ. शाळा मोठे बाबा, शिर्डी. सर्व हक्क सुरक्षित.</p>
+    </footer>
+
+</body>
+</html>
